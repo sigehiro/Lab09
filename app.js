@@ -14,10 +14,7 @@ function displayInventory() {
     }
     for (let i = 0; i < productIDs.length; i++) {
         let productID = productIDs[i];
-        let product = inventory[productID];
-        // console.log(`Product ID: ${productID}, Name: ${product.name}, Quantity: ${product.quantity}`);
         console.log("Product ID: " + productID + ", Name: " + inventory[productID].name + ", Quantity: " + inventory[productID].quantity);
-
     }
 }
 
